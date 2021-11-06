@@ -1,4 +1,4 @@
-local loader = Instance.new("ScreenGui")
+ local loader = Instance.new("ScreenGui")
 local loader_2 = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local sins = Instance.new("TextLabel")
@@ -84,7 +84,7 @@ load.MouseButton1Down:connect(function()
                  loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
         elseif game.PlaceId == 6484864709 then
                  loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/Gym-Tycoon-/main/README.md",true))();
-                    game.Players.LocalPlayer:Kick("Game not supported. | https://discord.gg/KYK6Vmfaax")
+                     
 	end
 	loader:Destroy()
 end)
